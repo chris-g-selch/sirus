@@ -1,0 +1,304 @@
+
+.panel {
+	height: 100%;
+	width: 100%;
+}
+/*Other color    #b3a391*/
+#one{
+	background-color: #FFF;
+	
+}
+
+
+
+#two{
+	background-color: #FFF;
+}			
+
+#three{
+	background-color: #FFF;
+}			
+
+#four{
+	background-color: #b3a391;
+	
+}			
+
+
+#five{
+	background-color: #FFF;
+}
+
+#six{
+	background-color:  #b3a391;
+}			
+
+#seven{
+	background-color: #8c8c94;
+}
+
+/*Font Positioning*/
+
+
+.container-fluid{padding:0px; }
+
+.no-margin{margin: 0px;}
+
+.sectionImg{
+		width:300px;
+		height: 200px;
+	}
+
+/*Grid sm size*/
+/*Tablet and below */
+@media screen and (max-width: 767px) {
+	.center {text-align: center}
+
+	.headerPush{margin-top: 60px;}
+
+	ol {padding-right: 35px;}
+	p {
+		font-size: 1rem;
+		padding: 1.5rem;
+	}
+
+	h1 {font-size: 3rem; } 
+	/*Font Sizing*/
+	.growthText{
+		font-size: 1.5rem;
+		font-weight: 400;
+		font-family: cursive;
+	}
+
+	.pad-bottom{padding-bottom: 1rem;}
+
+	.sectionImg{
+		width:300px;
+		height: 200px;
+	}
+	.imgCenter{
+		text-align: center;
+	}
+	.imgBorder{
+		border: 10px solid #0000006e;
+	}
+	#sLogo{
+		width: 30px;
+		height: 30px
+	}
+
+	#logo{
+		width: 100%;
+		height: 300px;
+	}
+
+	#healthySection{
+		padding-top: 1rem;
+		margin-bottom: 1rem;	
+	}
+
+	#hPeople{font-size:2rem; text-align: center;}
+	#hCommunity{font-size:1.7rem; text-align: center;}
+	#hCity{font-size:1.7rem; text-align: center;}
+
+}
+
+/*Grid Md */
+@media screen and (min-width: 768px) {
+	/*Move to left*/
+	.center {text-align: left;}
+
+	.headerPush{margin-top: 60px;}
+
+	ol {padding-right: 35px;}
+	p {
+		font-size: 1rem;
+		padding: 1rem;
+		padding-top: 0rem;
+	}
+
+	h1 {font-size: 3rem; } 
+	/*Font Sizing*/
+	.growthText{
+		font-size: 1.5rem;
+		font-weight: 400;
+		font-family: cursive;
+	}
+
+	.pad-bottom{padding-bottom: 1rem;}
+
+	.sectionImg{
+		width:275px;
+		height: 250px;
+	}
+	.imgCenter{
+		text-align: center;
+	}
+	.imgBorder{
+		border: 3px solid #0000006e;
+		
+	}
+	#sLogo{
+		width: 30px;
+		height: 30px
+	}
+
+	#logo{
+		width: 100%;
+		height: 300px;
+	}
+
+	#healthySection{
+		padding-top: 1rem;
+		margin-bottom: 1rem;	
+	}
+
+	#hPeople{font-size:2rem; text-align: center;}
+	#hCommunity{font-size:1.7rem; text-align: center;}
+	#hCity{font-size:1.7rem; text-align: center;}
+}
+
+
+/*Grid LG */
+@media screen and (min-width: 992px) {
+	/*Move to left*/
+	.center {text-align: left;}
+
+	.headerPush{margin-top: 60px;}
+
+	nav{height:100px}
+
+	ol {
+		padding-right: 35px;
+		font-size:1.2rem;
+		font-weight:600;
+	}
+	ul li {
+		font-size:1.5rem;
+		font-weight:500;
+	}
+	p {
+		font-size: 1.3rem;
+		padding: 1rem;
+		padding-top: 0rem;
+	}
+
+	h1 {font-size: 4rem; } 
+	/*Font Sizing*/
+	.growthText{
+		font-size: 1.7rem;
+		font-weight: 400;
+		font-family: cursive;
+	}
+
+	.pad-bottom{padding-bottom: 1rem;}
+
+	.sectionImg{
+		width:375px;
+		height: 275px;
+	}
+	.imgCenter{
+		text-align: center;
+	}
+	.imgBorder{
+		border: 3px solid #0000006e;
+		
+	}
+	#sLogo{
+		width: 90px;
+		height: 90px
+	}
+
+	#logo{
+		width: 100%;
+		height: 300px;
+	}
+
+	#healthySection{
+		padding-top: 1rem;
+		margin-bottom: 1rem;	
+	}
+
+	#hPeople{font-size:3rem; text-align: center;}
+	#hCommunity{font-size:2.7rem; text-align: center;}
+	#hCity{font-size:2.7rem; text-align: center;}
+}
+
+/*Grid LG */
+@media screen and (min-width: 1200px) {
+	#wrapper{
+		margin-left: 12.5%;
+		width: 75%;
+	}
+	/*Move to left*/
+	.center {text-align: left;}
+
+	.headerPush{margin-top: 120px;}
+
+	nav{height:100px}
+
+	ol {
+		padding-right: 35px;
+		font-size:1.2rem;
+		font-weight:600;
+	}
+	ul li {
+		font-size:1.5rem;
+		font-weight:500;
+	}
+	p {
+		font-size: 1.3rem;
+		padding: 1rem;
+		padding-top: 0rem;
+	}
+
+	h1 {font-size: 4rem; } 
+	/*Font Sizing*/
+	.growthText{
+		font-size: 1.7rem;
+		font-weight: 400;
+		font-family: cursive;
+	}
+
+	.pad-bottom{padding-bottom: 1rem;}
+
+	.sectionImg{
+		width:325px;
+		height: 275px;
+	}
+	.imgCenter{
+		text-align: center;
+	}
+	.imgBorder{
+		border: 3px solid #0000006e;
+		
+	}
+	#sLogo{
+		width: 90px;
+		height: 90px
+	}
+
+	#logo{
+		width: 50%;
+		height: 300px;
+		margin-left: 25%;
+	}
+
+
+	#healthySection{
+		padding-top: 1rem;
+		margin-bottom: 1rem;	
+	}
+
+	#hPeople{font-size:3rem; text-align: center;}
+	#hCommunity{font-size:2.7rem; text-align: center;}
+	#hCity{font-size:2.7rem; text-align: center;}
+}
+
+@media screen and (min-width: 1900px) {
+	#wrapper{
+		margin-left: 20%;
+		width: 60%;
+	}
+
+}
